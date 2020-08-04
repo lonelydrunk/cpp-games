@@ -167,7 +167,7 @@ void printFrameCoord(Frame a)
 int drawMenu()
 {
 	SetPos(30, 1);
-	cout<<"坦   克   大   战";
+	cout<<"坦   克   大   战（沙雕游戏）";
 	drawRow(3, 0, 79, '-');
 	drawRow(5, 0, 79, '-');
 	SetPos(28, 4);
@@ -183,7 +183,7 @@ int drawMenu()
 	SetPos(51, 13);
 	cout<<"简单敌人有着较慢的移动速度。";
 	SetPos(24, 21);
-	cout<<"陈杰制作";//制作 
+	cout<<"lonelydrunk制作";//制作 
 	int j=11;
 	SetPos(12, j);
 	cout<<">>";
@@ -665,7 +665,7 @@ void Game::GameOver()
 	SetPos(30, 16);
 	Sleep(1000);
 	cout<<"继续？ 是（y）| 否（n）";
-	cout<<"陈杰制作"<<endl; 
+	cout<<"lonelydrunk制作"<<endl; 
 as:
 	char x=_getch();
 	if (x == 'n')
